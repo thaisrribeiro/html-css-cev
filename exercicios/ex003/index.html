@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Inserindo Imagens</h1>
+    <p>
+        Antes de utilizar qualquer imagem em um site, é de extrema importância verificar as licenças por conta de direitos autorais.
+    </p>
+    <p>
+        Além disso, as imagens devem ser redimensionadas de acordo com a necessidade e de forma que os arquivos não fiquem pesados, pois isso afeta no desempenho.
+    </p>
+    <p>
+        Nós podemos inserir imagens em um documento HTML por meio da tag &lt;img&gt;. Dentro dela, devemos inserir a origem (scr) da imagem e o texto alternativo (alt). Existem 3 diferentes formas de adicionar imagens no código:
+    </p>
+
+    <h2>Arquivo Local</h2>
+    <p>O Arquivo se encontra na mesma pasta em que o código HTML está. Não é recomendável, pois a pasta fica desorganizada.</p>
+    <img src="sol.jpg" alt="Foto do Sol">
+    <p>Foto de NASA na Unsplash</p>
+
+    <h2>Arquivo em Sub-Pasta</h2>
+    <p>A imagem a ser utilizada está separada em uma sub-pasta. É uma das formas mais utilizadas, pois os arquivos ficam organizados.</p>
+    <img src="imagens/eclipse.jpg" alt="Foto de Eclipse">
+    <p>Foto de Jongsun Lee na Unsplash</p>
+
+    <h2>Arquivo por URL</h2>
+    <p>A imagem é adicionada sendo referenciada por meio de um link. É desvantajosa, pois, se por algum motivo a URL não funcionar ou cair, a imagem deixa de ser exibida no site. Além disso, há menos controle do tamanho de arquivo.</p>
+    <img src="https://images.unsplash.com/photo-1479090793912-eb9929f4fdb2?q=80&w=968&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto da Lua" width="200px">
+    <p>Foto de Pedro lastra na Unsplash</p>
+</body>
+</html>
