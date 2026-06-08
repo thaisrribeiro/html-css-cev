@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações Extras</title>
+</head>
+<body>
+    <h1>Formatações Extras</h1>
+    <h2>Código-Fonte</h2>
+    <p>Você sabe como escrever "Hello, World!" em C? É fácil! Observe:</p>
+    <pre><code>
+    #include &lt;stdio.h&gt;
+    #include &lt;stdlib.h&gt;
+
+    int main() {
+        printf ("Hello, World!");
+        return 0;
+    }
+    </code></pre>
+    <p>
+        Simples! Não é? Ah... Sobre as tags? Claro! 
+        <br>
+        <code>&lt;pre&gt;</code> vai manter toda a formatação e  <code>&lt;code&gt;</code> formata o texto com fonte monoespaçada.
+    </p>
+    <h2>Citações</h2>
+    <p>Também podemos fazer citações em nosso documento HTML. Existem duas formas principais: com as tag <code>&lt;q&gt;</code> e <code>&lt;blockquote&gt;</code>.</p>
+    <p>
+        <q>Eis aqui uma citação simples usando <code>&lt;q&gt;</code>.</q>
+    </p>
+    <p>Agora, utilizando a tag <code>&lt;blockquote&gt;</code>:</p>
+    <p>Conforme o artigo de MDN Web Docs:</p>
+    <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+        <p>
+            HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.
+        </p>
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Você sabe o que significa <abbr title="Cascading Style Sheets">CSS</abbr>? Passe o cursor sobre <abbr title="Cascading Style Sheets">CSS</abbr> para descobrir! Foi utilizada a tag <code>&lt;abbr&gt;</code> para isso.
+    </p>
+
+    <h2><bdo dir="rtl">Texto Invertido</bdo></h2>
+    <p>Eu questiono o porquê disso existir... Não sei. Talvez tenha algum uso?</p>
+</body>
+</html>
