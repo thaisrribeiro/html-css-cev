@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Links Externos e Internos</h1>
+    <p>
+        <strong>Links</strong> são de extrema relevância em sites, pois permitem a navegação tanto externa quanto interna. O que seria da web sem os links?
+        <br>
+        Bem, para criar links em um documento HTML, utilizamos a tag <code>&lt;a&gt;</code> e o parâmetro <code>href=""</code>, apenas substituindo o valor pela URL desejada.
+    </p>
+    <h2>Link Externo</h2>
+    <p>
+        Vamos para outro site? Que tal o <strong>YouTube</strong>? Há todos os tipos de conteúdo que você pode ver por lá! Clique <a href="https://youtube.com" target="_blank" rel="external">aqui</a> para acessar.
+        <br>
+        Há alguns parâmetros que foram utilizados dentro dessa tag:
+        <ul>
+            <li>
+                <code>target=""</code>, nesse caso, com o valor <code>_blank</code>, para abrir uma nova guia;
+            </li>
+            <li>
+                <code>rel=""</code>, preenchido por <code>external</code> para indicar um site externo.
+            </li>
+        </ul>
+    </p>
+    <p>
+        Observe como ficaria se não houvesse esses parâmetros. Clique <a href="https://youtube.com">aqui</a>! 
+        <br>Como é um hyperlink para um site externo, muito provável que a pessoa não volte mais para o nosso site!
+    </p>
+
+    <h2>Link Interno</h2>
+    <p>Vamos para outra página? Digo, internamente agora!</p>
+    <a href="pag2.html" target="_self" rel="next">Ir para segunda página.</a>
+    <p>Para páginas internas, devemos utilizar os seguintes valores para os parâmetros <code>target=""</code> e <code>rel=""</code>, respectivamente: </p>
+    <ul>
+        <li><code>"_self"</code> para indicar que é interno;</li>
+        <li><code>"next"</code>, indicando ser a próxima página;</li>
+        <li><code>"prev"</code>, para a página anterior.</li>
+    </ul>
+    <p><strong>IMPORTANTE!</strong> Quando se tem pastas, usamos o caminho delas, por exemplo: <code>"outros/pag3.html"</code> e, para voltar, utilizamos <code>"../"</code> e o nome do arquivo desejado. Usuários de Linux devem estar familiarizados com isso.</p>
+</body>
+</html>
