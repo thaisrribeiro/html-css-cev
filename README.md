@@ -1,2 +1,3 @@
-# html-css-cev
-Complementando os estudos de Front End com o material de HTML5 e CSS3 do Curso em Vídeo
+# Estudos FrontEnd
+
+Neste repositório, será centralizado meus estudos em Front End, como HTML5 e CSS3, JavaScript, entre outros conhecimentos que serão adicionados brevemente.
